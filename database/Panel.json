@@ -1,0 +1,34 @@
+[
+    {
+        "Name": "Muhammad Ashraf Usman Punjwani",
+        "Design": "Saddar",
+        "WhatsaapNumber": "https://wa.me/+923212548084",
+        "contactNumber": "03212548084",
+        "Image":"/saddar.jpg"
+    },{
+        "Name": "Irfan Nisar Gaba",
+        "Design": "Naib Saddar",
+        "WhatsaapNumber": "https://wa.me/+923333091989",
+        "contactNumber": "03333091989",
+        "Image":"/Naibsaddar.jpg"
+    },{
+        "Name": "Dr. Abdul Sattar Gatta",
+        "Design": "General Seceratory",
+        "WhatsaapNumber": "https://wa.me/+923218080486",
+        "contactNumber": "03218080486",
+        "Image":"/GeneralSeceratory.jpg"
+    },{
+        "Name": "Imran Abdul Sattar Ganatra",
+        "Design": "Joint Seceratory",
+        "WhatsaapNumber": "https://wa.me/+923332308996",
+        "contactNumber": "03332308996",
+        "Image":"/JointSeceratory.jpg"
+    },{
+        "Name": "Zaid Abid Hussian Essani",
+        "Design": "Khazin",
+        "WhatsaapNumber": "https://wa.me/+923333328559",
+        "contactNumber": "03333328559",
+        "Image":"/Khazin.jpg"
+    }
+
+]

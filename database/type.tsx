@@ -8,3 +8,11 @@ export default interface Member {
   area: string;
   Town: string;
 }
+
+export interface Panel {
+  Name: string;
+  WhatsaapNumber: string;
+  contactNumber: string;
+  Image:string;
+  Design:string;
+}

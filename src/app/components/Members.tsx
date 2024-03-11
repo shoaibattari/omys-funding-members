@@ -7,6 +7,8 @@ import icon from "@/app/../../public/whatsaap.jpeg";
 import OMYSLogo from "@/app/../../public/OMYS-Logo.png";
 
 import Image from "next/image";
+import Banner from "./ui/Banner1";
+import Banner2 from "./ui/Banner2";
 
 const Members: React.FC = () => {
   const [nameSearch, setNameSearch] = useState("");
@@ -73,6 +75,8 @@ const Members: React.FC = () => {
         </div>
       </div>
       <div>
+        <Banner />
+
         <ul className=" grid justify-between md:grid-cols-3  ">
           {filteredMembers.map((member) => (
             <li key={member.Slug} className="p-1 m-2 md:p-6 md:h-[400px]">
@@ -82,18 +86,16 @@ const Members: React.FC = () => {
                 width={300}
                 height={230}
               ></iframe>
-              <p className="text-sm h-10">
+              <p className="text-sm h-10 hover:scale-110 ">
                 <Link
                   href={`/${member.Slug}`}
-                  className="text-1xl  text-gray-100 font-semibold"
+                  className="text-1xl hover:text-blue-100  text-gray-100 font-semibold"
                 >
                   {member.Name}
                 </Link>
               </p>
-              <p className="md:text-1xl text-white md:h-12">
-                {member.area}
-              </p>
-              <p className="text-1xl bg-white rounded-full p-3   flex justify-center hover:scale-105 ">
+              <p className="md:text-1xl text-white md:h-12">{member.area}</p>
+              <p className="text-1xl bg-white rounded-full p-3   flex justify-center hover:scale-105  ">
                 <Image src={icon} width={35} height={20} alt="icon" />
                 <Link
                   href={member.WhatsaapNumber}
@@ -106,6 +108,8 @@ const Members: React.FC = () => {
           ))}
         </ul>
       </div>
+      <Banner2 />
+
     </main>
   );
 };
