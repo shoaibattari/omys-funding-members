@@ -37,7 +37,7 @@ const Members: React.FC = () => {
 
   return (
     <main>
-      <div className=  " bg-teal-500   p-3 md:flex justify-around md:rounded-3xl">
+      <div className=" bg-teal-500   p-3 md:flex justify-around md:rounded-3xl">
         <Image src={OMYSLogo} width={70} height={70} alt="icon" />
         <div className="m-3 ">
           <label className="hidden text-2xl px-3 text-gray-900">
@@ -77,25 +77,26 @@ const Members: React.FC = () => {
           {filteredMembers.map((member) => (
             <li key={member.Slug} className="p-1 m-2 md:p-6 md:h-[400px]">
               <iframe
-                src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fytnmedia%2Fposts%2Fpfbid0UbMjMW6qdSP53jgYEBDzRiMTHqDBYVfX5e4rHYF8zWUyaWTKimU5fzDExGTjU7qJl&show_text=false&width=500"
+                src={member.PostLink}
                 allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; "
                 width={300}
                 height={230}
               ></iframe>
-
-              <Link
-                href={`/${member.Slug}`}
-                className="text-1xl  text-gray-100 font-semibold"
-              >
-                {member.Name}
-              </Link>
+              <p className="text-sm">
+                <Link
+                  href={`/${member.Slug}`}
+                  className="text-1xl text-gray-100 font-semibold"
+                >
+                  {member.Name}
+                </Link>
+              </p>
               <p className="text-sm text-white h-12 overflow-auto">
                 {member.area}
               </p>
-              <p className="text-1xl bg-white rounded-full p-3  mt-2 flex justify-center hover:scale-105 ">
-                <Image src={icon} width={20} height={20} alt="icon" />
+              <p className="text-1xl bg-white rounded-full p-3   flex justify-center hover:scale-105 ">
+                <Image src={icon} width={35} height={20} alt="icon" />
                 <Link
-                  href="https://wa.me/+923143565882"
+                  href={member.WhatsaapNumber}
                   className="font-semibold text-lg text-green-500 "
                 >
                   {member.contactNumber}
@@ -103,7 +104,6 @@ const Members: React.FC = () => {
               </p>
             </li>
           ))}
-          <li></li>
         </ul>
       </div>
     </main>
