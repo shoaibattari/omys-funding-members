@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className=" max-w-5xl flex justify-center min-w-[250px] text-center">
+      <body className=" max-w-5xl flex justify-center min-w-[250px] text-center bg-teal-500">
         <div>{children}</div>
       </body>
     </html>

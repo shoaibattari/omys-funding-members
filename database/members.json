@@ -3,7 +3,7 @@
         "Sno": "1",
         "Slug": "MR.-MUHAMMAD-YOUNUS-QASIM-VAYANI",
         "Name": "MR. MUHAMMAD YOUNUS QASIM VAYANI",
-        "contactNumber": "0333-2152625",
+        "contactNumber": "https://wa.me/+923332152625",
         "area": "Chairman - Central Fund Collection(CFC)2024",
         "Town": "F.B Area"
     },
@@ -11,7 +11,7 @@
         "Sno": "2",
         "Slug": "MR.-MUHAMMAD-JAVED-TAYYAB-BARAI",
         "Name": "MR. MUHAMMAD JAVED TAYYAB BARAI",
-        "contactNumber": "0321-2041010",
+        "contactNumber": "https://wa.me/+923212041010",
         "area": "Chairman - Gulistan-e-Jauhar Block 1 & 2",
         "Town": "Gulistan-e-Jauhar"
     },
@@ -19,7 +19,7 @@
         "Sno": "3",
         "Slug": "MR.-YASIR-HUSSAIN-SHAUKAT-KARAR",
         "Name": "MR. YASIR HUSSAIN SHAUKAT KARAR",
-        "contactNumber": "0312-8368522",
+        "contactNumber": "https://wa.me/+923128368522",
         "area": "Chairman - Gulzar-e-Hijri (Mossamiat to Malir Cantt)",
         "Town": "Gulzar-e-Hijri "
     },
@@ -27,7 +27,7 @@
         "Sno": "4",
         "Slug": "MR.-IMRAN-ABDUL-SHAKOOR-PANJWANI-",
         "Name": "MR. IMRAN ABDUL SHAKOOR PANJWANI ",
-        "contactNumber": "0305-3995644",
+        "contactNumber": "https://wa.me/+923053995644",
         "area": "Chairman - Gulzar-e-Hijri (Karachi University to Madras Chowk)",
         "Town": "Gulzar-e-Hijri "
     },
@@ -35,7 +35,7 @@
         "Sno": "5",
         "Slug": "MR.-MUZAMMIL-MUHAMMAD-HANIF-KATH",
         "Name": "MR. MUZAMMIL MUHAMMAD HANIF KATH",
-        "contactNumber": "0302-1928830",
+        "contactNumber": "https://wa.me/+923021928830",
         "area": "Chairman - Gulshan-e-Iqbal Memon Plaza",
         "Town": "Gulshan-e-Iqbal"
     },
@@ -43,7 +43,7 @@
         "Sno": "6",
         "Slug": "MR.-TOUFIQ-USMAN-KATH",
         "Name": "MR. TOUFIQ USMAN KATH",
-        "contactNumber": "0321-9270975",
+        "contactNumber": "https://wa.me/+923219270975",
         "area": "Chairman - Gulshan-e-Iqbal, Bait-ulMukaram",
         "Town": "Gulshan-e-Iqbal"
     },
@@ -51,23 +51,23 @@
         "Sno": "7",
         "Slug": "MR.-SAJJAD-HASHIM-JAKHURA",
         "Name": "MR. SAJJAD HASHIM JAKHURA",
-        "contactNumber": "0300-2795560",
+        "contactNumber": "https://wa.me/+923002795560",
         "area": "Chairman - Defence and Clifton",
-        "Town": "Other"
+        "Town": "Defence and Clifton"
     },
     {
         "Sno": "8",
         "Slug": "MR.-ASHRAF-ISMAIL-MARKATYA",
         "Name": "MR. ASHRAF ISMAIL MARKATYA",
-        "contactNumber": "0321-3893910",
+        "contactNumber": "https://wa.me/+923213893910",
         "area": "Chairman - Hill Park Block 7, 8",
-        "Town": "Other"
+        "Town": "Hill Park"
     },
     {
         "Sno": "9",
         "Slug": "MR.-BILAL-ABDUL-RASHEED-DARBAR",
         "Name": "MR. BILAL ABDUL RASHEED DARBAR",
-        "contactNumber": "0331-2611731",
+        "contactNumber": "https://wa.me/+923312611731",
         "area": "Chairman - Chandni Chowk / Housing Society",
         "Town": "Other"
     },
@@ -75,7 +75,7 @@
         "Sno": "10",
         "Slug": "MR.-SAMEER-HASSAN-ISHAQ-DARBAR",
         "Name": "MR. SAMEER HASSAN ISHAQ DARBAR",
-        "contactNumber": "0332-2218116",
+        "contactNumber": "https://wa.me/+923322218116",
         "area": "Chairman - Kharadar",
         "Town": "Lyari"
     },
@@ -83,7 +83,7 @@
         "Sno": "11",
         "Slug": "MR.-MUZAMMIL-MUHAMMAD-ASLAM-VAYANI",
         "Name": "MR. MUZAMMIL MUHAMMAD ASLAM VAYANI",
-        "contactNumber": "0323-3780328",
+        "contactNumber": "https://wa.me/+923233780328",
         "area": "Chairman - Memon Society",
         "Town": "Lyari"
     },
@@ -91,7 +91,7 @@
         "Sno": "12",
         "Slug": "MR.-NOOR-MUHAMMAD-ABDUL-AZIZ-JAKHURA",
         "Name": "MR. NOOR MUHAMMAD ABDUL AZIZ JAKHURA",
-        "contactNumber": "0323-3058791",
+        "contactNumber": "https://wa.me/+923233058791",
         "area": "Chairman - F.B Area Block 4, 5, 6",
         "Town": "F.B Area"
     },
@@ -99,7 +99,7 @@
         "Sno": "13",
         "Slug": "MR.-YASEEN-ABDUL-GHANI-JAKHURA",
         "Name": "MR. YASEEN ABDUL GHANI JAKHURA",
-        "contactNumber": "0302-1954450",
+        "contactNumber": "https://wa.me/+923021954450",
         "area": "Chairman - Karimabad Markaz",
         "Town": "F.B Area"
     },
@@ -107,7 +107,7 @@
         "Sno": "14",
         "Slug": "MR.-ZAIN-UL-ABIDEN-M.-IBRAHIM-PASTA",
         "Name": "MR. ZAIN-UL-ABIDEN M. IBRAHIM PASTA",
-        "contactNumber": "0313-2393023",
+        "contactNumber": "https://wa.me/+923132393023",
         "area": "Chairman - Hussainabad Block 3",
         "Town": "F.B Area"
     },
@@ -115,7 +115,7 @@
         "Sno": "15",
         "Slug": "MR.-USMAN-ABDULLAH-PANJWANI",
         "Name": "MR. USMAN ABDULLAH PANJWANI",
-        "contactNumber": "0320-2727196",
+        "contactNumber": "https://wa.me/+923202727196",
         "area": "Chairman - Hussainabad Block 2",
         "Town": "F.B Area"
     },
@@ -123,7 +123,7 @@
         "Sno": "16",
         "Slug": "MR.-ABDUL-SATTAR-HAJI-MUHAMMAD-JAKHURA",
         "Name": "MR. ABDUL SATTAR HAJI MUHAMMAD JAKHURA",
-        "contactNumber": "0300-2901890",
+        "contactNumber": "https://wa.me/+923002901890",
         "area": "Chairman - Overseas",
         "Town": "Overseas"
     },
@@ -131,7 +131,7 @@
         "Sno": "17",
         "Slug": "MR.-SADIQ-USMAN-KARAR",
         "Name": "MR. SADIQ USMAN KARAR",
-        "contactNumber": "0333-7722013",
+        "contactNumber": "https://wa.me/+923337722013",
         "area": "Chairman - Matli",
         "Town": "Matli"
     },
@@ -139,7 +139,7 @@
         "Sno": "18",
         "Slug": "MR.-ADEEL-USMAN-GATTA",
         "Name": "MR. ADEEL USMAN GATTA",
-        "contactNumber": "0335-1316119",
+        "contactNumber": "https://wa.me/+923351316119",
         "area": "Chairman - Hashamad Society",
         "Town": "Gulzar-e-Hijri "
     },
@@ -147,7 +147,7 @@
         "Sno": "19",
         "Slug": "MR.-KAMRAN-ABDUL-SATTAR-SURYA",
         "Name": "MR. KAMRAN ABDUL SATTAR SURYA",
-        "contactNumber": "0323-3303045",
+        "contactNumber": "https://wa.me/+923233303045",
         "area": "Chairman - Super Highway",
         "Town": "Gulzar-e-Hijri "
     },
@@ -155,7 +155,7 @@
         "Sno": "20",
         "Slug": "MR.-AAKIF-HANIF-SURYA",
         "Name": "MR. AAKIF HANIF SURYA",
-        "contactNumber": "0315-2480805",
+        "contactNumber": "https://wa.me/+923152480805",
         "area": "Chairman - Memon Nagar / Scheme 33 ",
         "Town": "Gulzar-e-Hijri "
     },
@@ -163,7 +163,7 @@
         "Sno": "21",
         "Slug": "MR.-SHAHZAD-MOOSA-MURAD",
         "Name": "MR. SHAHZAD MOOSA MURAD",
-        "contactNumber": "0323-3266466",
+        "contactNumber": "https://wa.me/+923233266466",
         "area": "Chairman - Gulistan-e-Jauhar Block 16, 17, 18, 19 & 20",
         "Town": "Gulistan-e-Jauhar"
     },
@@ -171,7 +171,7 @@
         "Sno": "22",
         "Slug": "MR.-SHAHID-HASHIM-SURYA",
         "Name": "MR. SHAHID HASHIM SURYA",
-        "contactNumber": "0321-2896261",
+        "contactNumber": "https://wa.me/+923212896261",
         "area": "Chairman - Gulistan-e-Jauhar Block 14 & 15",
         "Town": "Gulistan-e-Jauhar"
     },
@@ -179,7 +179,7 @@
         "Sno": "23",
         "Slug": "MR.-RAFAY-ABDUL-RASHEED-KATH",
         "Name": "MR. RAFAY ABDUL RASHEED KATH",
-        "contactNumber": "0323-8081794",
+        "contactNumber": "https://wa.me/+923238081794",
         "area": "Chairman - Gulistan-e-Jauhar Block 9, 10, 11, 12, 13",
         "Town": "Gulistan-e-Jauhar"
     },
@@ -187,7 +187,7 @@
         "Sno": "24",
         "Slug": "MR.-BILAL-HANIF-MARKATYA",
         "Name": "MR. BILAL HANIF MARKATYA",
-        "contactNumber": "0321-2109249",
+        "contactNumber": "https://wa.me/+923212109249",
         "area": "Chairman - Gulistan-e-Jauhar Block 5, 6, 7, 8",
         "Town": "Gulistan-e-Jauhar"
     },
@@ -195,8 +195,16 @@
         "Sno": "25",
         "Slug": "MR.-JUNAID-HAJI-USMAN-VAYANI",
         "Name": "MR. JUNAID HAJI USMAN VAYANI",
-        "contactNumber": "0333-2287466",
+        "contactNumber": "https://wa.me/+923332287466",
         "area": "Chairman - Gulistan-e-Jauhar Block 3 & 4",
         "Town": "Gulistan-e-Jauhar"
+    },
+    {
+        "Sno": "26",
+        "Slug": "MR.-RAFIQ-ABDULLAH-JAKHURA-KARIMI",
+        "Name": "MR. RAFIQ ABDULLAH JAKHURA KARIMI",
+        "contactNumber": "https://wa.me/+923143565882",
+        "area": "Chairman - Hyderabad",
+        "Town": "Hyderabad"
     }
 ]
