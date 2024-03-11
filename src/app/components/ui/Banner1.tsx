@@ -15,13 +15,7 @@ function Banner() {
           <Image src={banner1} width={500} height={300} alt="banner1" />
         </div>
       </div>
-      <div>
-        <div className="flex justify-center">
-          <div>
-            <Image src={CFC} width={500} height={300} alt="CFC" />
-          </div>
-        </div>
-      </div>
+      
     </main>
   );
 }

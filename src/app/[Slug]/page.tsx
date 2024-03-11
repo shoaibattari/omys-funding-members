@@ -4,6 +4,7 @@ import Member from "@/app/../../database/type";
 import Image from "next/image";
 import Link from "next/link";
 import icon from "@/app/../../public/whatsaap.jpeg";
+import Banner2 from "../components/ui/Banner2";
 
 interface Props {
   params: { Slug: string };
@@ -21,7 +22,7 @@ const Page: React.FC<Props> = ({ params }) => {
 
   const memberData = membersData.find((member) => member.Slug === Slug);
 
-  return (
+  return (<main>
     <div className="flex w-full justify-center">
       {memberData ? (
         <div>
@@ -52,7 +53,13 @@ const Page: React.FC<Props> = ({ params }) => {
       ) : (
         <div>Member not found</div>
       )}
+
     </div>
+    <div>
+      <Banner2/>
+    </div>
+    </main>
+    
   );
 };
 

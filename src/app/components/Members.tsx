@@ -75,8 +75,7 @@ const Members: React.FC = () => {
         </div>
       </div>
       <div>
-        <Banner />
-
+<Banner />
         <ul className=" grid justify-between md:grid-cols-3  ">
           {filteredMembers.map((member) => (
             <li key={member.Slug} className="p-1 m-2 md:p-6 md:h-[400px]">
@@ -108,7 +107,6 @@ const Members: React.FC = () => {
           ))}
         </ul>
       </div>
-      <Banner2 />
 
     </main>
   );
