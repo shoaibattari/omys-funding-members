@@ -82,15 +82,15 @@ const Members: React.FC = () => {
                 width={300}
                 height={230}
               ></iframe>
-              <p className="text-sm">
+              <p className="text-sm h-10">
                 <Link
                   href={`/${member.Slug}`}
-                  className="text-1xl text-gray-100 font-semibold"
+                  className="text-1xl  text-gray-100 font-semibold"
                 >
                   {member.Name}
                 </Link>
               </p>
-              <p className="text-sm text-white h-12 overflow-auto">
+              <p className="md:text-1xl text-white md:h-12">
                 {member.area}
               </p>
               <p className="text-1xl bg-white rounded-full p-3   flex justify-center hover:scale-105 ">
