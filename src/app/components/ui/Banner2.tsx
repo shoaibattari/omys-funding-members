@@ -27,14 +27,14 @@ function Banner2() {
                 width={200}
                 height={200}
                 alt={Panel.Name}
-                className="h-50 w-70 rounded-full"
+                className="h-50 w-70  rounded-full"
               />
             </div>
 
-            <h3 className="text-2xl font-semibold leading-7 tracking-tight text-gray-100">
+            <h3 className="text-2xl font-semibold  leading-7 tracking-tight text-gray-100">
               {Panel.Name}
             </h3>
-            <p className="text-lg font-semibold leading-6 text-gray-300">
+            <p className="text-lg font-semibold leading-6  text-gray-300">
               {Panel.Design}
             </p>
             <p className="text-1xl bg-white rounded-full p-1   flex justify-center hover:scale-105  ">

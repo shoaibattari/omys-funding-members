@@ -1,13 +1,13 @@
 [
     {
         "Name": "Muhammad Ashraf Usman Punjwani",
-        "Design": "Saddar",
+        "Design": "President",
         "WhatsaapNumber": "https://wa.me/+923212548084",
         "contactNumber": "03212548084",
         "Image":"/saddar.jpg"
     },{
         "Name": "Irfan Nisar Gaba",
-        "Design": "Naib Saddar",
+        "Design": "Vice President",
         "WhatsaapNumber": "https://wa.me/+923333091989",
         "contactNumber": "03333091989",
         "Image":"/Naibsaddar.jpg"
@@ -25,7 +25,7 @@
         "Image":"/JointSeceratory.jpg"
     },{
         "Name": "Zaid Abid Hussian Essani",
-        "Design": "Khazin",
+        "Design": "Treasurer",
         "WhatsaapNumber": "https://wa.me/+923333328559",
         "contactNumber": "03333328559",
         "Image":"/Khazin.jpg"
