@@ -2,8 +2,11 @@
 import React, { useState } from "react";
 import membersData from "@/app/../../database/members.json";
 import Link from "next/link";
-import Member from "@/app/../../database/type"
+import Member from "@/app/../../database/type";
+import icon from "@/app/../../public/whatsaap.jpeg";
+import OMYSLogo from "@/app/../../public/OMYS-Logo.png";
 
+import Image from "next/image";
 
 const Members: React.FC = () => {
   const [nameSearch, setNameSearch] = useState("");
@@ -33,37 +36,82 @@ const Members: React.FC = () => {
   const towns = Array.from(new Set(membersData.map((member) => member.Town)));
 
   return (
-    <div>
-      <div>
-        <label>Name Search:</label>
-        <input
-          type="text"
-          placeholder="Search by name"
-          value={nameSearch}
-          onChange={handleNameSearch}
+    <main>
+      <div className="bg-blue-500 flex justify-around rounded-3xl">
+        <div className="m-3 ">
+          <label className="hidden text-2xl px-3 text-gray-900">
+            Name Search:
+          </label>
+          <input
+            type="text"
+            placeholder="Search by name"
+            value={nameSearch}
+            onChange={handleNameSearch}
+            className="p-1 md:p-3 rounded-3xl"
+          />
+        </div>
+        <Image
+          className="hidden"
+          src={OMYSLogo}
+          width={70}
+          height={70}
+          alt="icon"
         />
-      </div>
-
-      <div>
-        <label>Town Search:</label>
-        <select value={townSearch} onChange={handleTownSearch}>
-          <option value="">Select Town</option>
-          {towns.map((town, index) => (
-            <option key={index} value={town.toLowerCase()}>
-              {town}
+        <div className="m-3">
+          <label className="hidden text-2xl px-3 text-gray-900">
+            Town Search:
+          </label>
+          <select
+            value={townSearch}
+            onChange={handleTownSearch}
+            className="p-1 md:p-3 rounded-3xl"
+          >
+            <option value="" className="text-gray-900">
+              Select Town
             </option>
-          ))}
-        </select>
+            {towns.map((town, index) => (
+              <option key={index} value={town.toLowerCase()}>
+                {town}
+              </option>
+            ))}
+          </select>
+        </div>
       </div>
+      <div>
+        <ul className=" grid justify-center md:grid-cols-3 ">
+          {filteredMembers.map((member) => (
+            <li key={member.Slug} className="p-1 md:p-6 ">
+              <iframe
+                src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fytnmedia%2Fposts%2Fpfbid0UbMjMW6qdSP53jgYEBDzRiMTHqDBYVfX5e4rHYF8zWUyaWTKimU5fzDExGTjU7qJl&show_text=false&width=500"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; "
+                width={300}
+                height={230}
+              ></iframe>
 
-      <ul>
-        {filteredMembers.map((member) => (
-          <li key={member.Slug}>
-            <Link href={`/${member.Slug}`}>{member.Name}</Link>
-          </li>
-        ))}
-      </ul>
-    </div>
+              <Link
+                href={`/${member.Slug}`}
+                className="text-1xl text-gray-700 font-semibold"
+              >
+                {member.Name}
+              </Link>
+              <p className="text-sm text-blue-500 overflow-auto">
+                {member.area}
+              </p>
+              <p className="text-1xl text-black flex justify-center hover:scale-105">
+                <Image src={icon} width={20} height={20} alt="icon" />
+                <Link
+                  href="https://wa.me/+923143565882"
+                  className="font-semibold text-green-500 "
+                >
+                  {member.contactNumber}
+                </Link>
+              </p>
+            </li>
+          ))}
+          <li></li>
+        </ul>
+      </div>
+    </main>
   );
 };
 
