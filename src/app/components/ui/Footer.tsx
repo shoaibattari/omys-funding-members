@@ -11,7 +11,7 @@ import {
 export default function Footer() {
   return (
     <>
-      <div className="md:px-[48px] py-[16px] text-center bg-black text-gray-100">
+      <div className="md:px-[48px] py-[16px] text-center bg-secondary text-gray-100">
         Disclaimer
         <p className="text-sm p-3">
           This app is not  official Okhai Memon Youth Service application. It is an
@@ -44,7 +44,7 @@ export default function Footer() {
               </Link>
 
               <Link
-                href="https://wa.me/+923232579204"
+                href="https://wa.me/+92/3313416850"
                 rel="noopener noreferrer"
                 className=""
                 target="_blank"
