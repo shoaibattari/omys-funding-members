@@ -8,7 +8,6 @@ import OMYSLogo from "@/app/../../public/OMYS-Logo.png";
 
 import Image from "next/image";
 import Banner from "./ui/Banner1";
-import Banner2 from "./ui/Banner2";
 
 const Members: React.FC = () => {
   const [nameSearch, setNameSearch] = useState("");
@@ -80,13 +79,16 @@ const Members: React.FC = () => {
       </div>
       <div>
         <Banner />
-        <ul className=" grid gap-8 mx-2 md:mx-8 md:grid-cols-3 py-4">
-          {filteredMembers.map((member) => (
-            <li key={member.Slug} className="h-fit flex flex-col gap-2">
+        <ul className=" grid gap-8 mx-2 md:mx-8 md:grid-cols-3 py-4   ">
+          {filteredMembers.map((member, index) => (
+            <li
+              key={index}
+              className="h-fit flex flex-col justify-center gap-2 "
+            >
               <Image
-                className="w-full h-full object-contain rounded-3xl"
+                className="w-full h-full object-contain rounded-3xl min-h-[30rem] "
                 alt={member.Name}
-                src={"/MR.-MUHAMMAD-YOUNUS-QASIM-VAYANI.jpg"}
+                src={member.image || "/omys.png"}
                 width={700}
                 height={500}
               />
@@ -96,7 +98,7 @@ const Members: React.FC = () => {
               >
                 {member.Name}
               </Link>
-              <p className="text-lg md:text-2xl pb-2 text-nowrap text-golden font-semibold">
+              <p className="text-lg md:text-xl pb-2 text-nowrap text-golden font-semibold">
                 {member.area}
               </p>
               <div className=" bg-white rounded-full p-3   flex items-center justify-center">
