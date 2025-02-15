@@ -2,7 +2,7 @@ export default interface Member {
   Sno: string;
   Slug: string;
   Name: string;
-  PostLink: String | any;
+  image?:string;
   WhatsaapNumber: string;
   contactNumber: string;
   area: string;

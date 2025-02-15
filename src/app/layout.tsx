@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className=" max-w-7xl flex justify-center content-center h-svh min-w-[250px] text-center bg-teal-500">
+      <body className=" flex justify-center content-center text-center bg-secondary">
         <div>
           {children}
           <Footer />
