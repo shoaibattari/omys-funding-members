@@ -59,6 +59,8 @@ const Members: React.FC = () => {
 
         <div className="w-full mx-auto p-2">
           <label className="hidden  text-2xl px-3  text-gray-100">
+        <div className="w-full mx-auto p-2">
+          <label className="hidden  text-2xl px-3  text-gray-100">
             Town Search:
           </label>
           <select
@@ -66,6 +68,7 @@ const Members: React.FC = () => {
             onChange={handleTownSearch}
             className="p-2 md:p-4 mr-3 focus:none text-xl rounded-3xl w-full"
           >
+            <option value="" className="text-gray-900">
             <option value="" className="text-gray-900">
               Select Town
             </option>
@@ -106,9 +109,11 @@ const Members: React.FC = () => {
                 <Link
                   href={member.WhatsaapNumber}
                   className=" text-xl font-bold text-primary"
+                  className=" text-xl font-bold text-primary"
                 >
                   {member.contactNumber}
                 </Link>
+              </div>
               </div>
             </li>
           ))}
