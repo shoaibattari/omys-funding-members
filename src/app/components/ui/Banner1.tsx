@@ -29,7 +29,6 @@ function Banner() {
         </div>
         <div>
           <Image src={banner1} width={500} height={300} alt="banner1 " />
-          <Image src={banner1} width={500} height={300} alt="banner1 " />
         </div>
       </div>
     </main>
