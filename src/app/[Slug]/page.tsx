@@ -1,10 +1,8 @@
 import React from "react";
 import membersData from "@/app/../../database/members.json";
 import Member from "@/app/../../database/type";
-import Image from "next/image";
-import Link from "next/link";
-import icon from "@/app/../../public/whatsaap.jpeg";
-import Banner2 from "../components/ui/Banner2";
+import TeamOMYS from "../components/ui/TeamOMYS";
+import FundingMemberCard from "../components/MemberCard/FundingMemberCard";
 
 interface Props {
   params: { Slug: string };
@@ -22,38 +20,17 @@ const Page: React.FC<Props> = ({ params }) => {
 
   const memberData = membersData.find((member) => member.Slug === Slug);
 
-  return (<main>
-    <div className="flex w-full justify-center">
-      {memberData ? (
+  return (
+    <main className="w-full py-12">
+      <div className="flex w-full justify-center items-center">
         <div>
-          <li key={memberData.Slug} className="p-1 m-2 md:p-6 md:h-[400px]">
-            <p className="text-sm text-1xl text-gray-100 font-semibold">
-              {memberData.Name}
-            </p>
-            <p className="text-sm text-white h-12 overflow-auto">
-              {memberData.area}
-            </p>
-            <p className="text-1xl bg-white rounded-full p-3   flex justify-center hover:scale-105 ">
-              <Image src={icon} width={35} height={20} alt="icon" />
-              <Link
-                href={memberData.WhatsaapNumber}
-                className="font-semibold text-lg text-green-500 "
-              >
-                {memberData.contactNumber}
-              </Link>
-            </p>
-          </li>
+          {memberData ? <FundingMemberCard member={memberData} /> : null}
         </div>
-      ) : (
-        <div>Member not found</div>
-      )}
-
-    </div>
-    <div>
-      <Banner2/>
-    </div>
+      </div>
+      <div>
+        <TeamOMYS />
+      </div>
     </main>
-    
   );
 };
 

@@ -7,7 +7,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "OMYS Fund Collection Charmains",
-  description: "this app is create by OMYS Fund Collection members data for online and one click easy use and searchable",
+  description:
+    "this app is create by OMYS Fund Collection members data for online and one click easy use and searchable",
 };
 
 export default function RootLayout({
@@ -17,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className=" flex justify-center content-center text-center bg-secondary">
+      <body className="bg-secondary px-2 md:px-4 max-w-[1500px] mx-auto">
         <div>
           {children}
           <Footer />
