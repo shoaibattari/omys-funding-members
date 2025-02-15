@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import banner1 from "../../../../public/banner2025.jpg";
-import banner2 from "../../../../public/banner2.jpg";
 
 function Banner() {
   return (
@@ -15,7 +14,7 @@ function Banner() {
             muted
             loop
             controls
-            className="w-full h-auto mx-2 py-2"
+            className="w-full h-auto "
           >
             <source src="omysVideo.mp4" type="video/mp4" />
             <track
@@ -28,7 +27,13 @@ function Banner() {
           </video>
         </div>
         <div>
-          <Image src={banner1} width={500} height={300} alt="banner1 " />
+          <Image
+            src={banner1}
+            width={500}
+            height={300}
+            alt="banner1 "
+            className="object-cover"
+          />
         </div>
       </div>
     </main>

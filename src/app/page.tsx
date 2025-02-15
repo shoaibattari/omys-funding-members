@@ -1,14 +1,11 @@
 import Members from "@/app/components/Members";
-import Banner from "./components/ui/Banner1";
-import Banner2 from "./components/ui/Banner2";
+import TeamOMYS from "./components/ui/TeamOMYS";
 
 export default function Home() {
   return (
     <main>
-      <h1>
-        <Members />
-        <Banner2 />
-      </h1>
+      <Members />
+      <TeamOMYS />
     </main>
   );
 }

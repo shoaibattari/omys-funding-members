@@ -1,13 +1,11 @@
 "use client";
 import React, { useState } from "react";
 import membersData from "@/app/../../database/members.json";
-import Link from "next/link";
 import Member from "@/app/../../database/type";
-import icon from "@/app/../../public/whatsaap.jpeg";
 import OMYSLogo from "@/app/../../public/OMYS-Logo.png";
-
 import Image from "next/image";
 import Banner from "./ui/Banner1";
+import FundingMemberCard from "./MemberCard/FundingMemberCard";
 
 const Members: React.FC = () => {
   const [nameSearch, setNameSearch] = useState("");
@@ -47,7 +45,7 @@ const Members: React.FC = () => {
           className=" mx-auto "
         />
         <div className=" w-full mx-auto p-2">
-          <label className="hidden text-2xl text-gray-900">Name Search:</label>
+          <label className=" text-2xl text-golden">Name Search:</label>
           <input
             type="text"
             placeholder="Search by name"
@@ -58,7 +56,7 @@ const Members: React.FC = () => {
         </div>
 
         <div className="w-full mx-auto p-2">
-          <label className="hidden  text-2xl px-3  text-gray-100">
+          <label className="  text-2xl px-3  text-golden">
             Town Search:
           </label>
           <select
@@ -81,36 +79,7 @@ const Members: React.FC = () => {
         <Banner />
         <ul className=" grid gap-4 md:grid-cols-3">
           {filteredMembers.map((member, index) => (
-            <li
-              key={index}
-              className="h-fit flex flex-col justify-center gap-2 px-2  "
-            >
-              <Image
-                className="w-full h-full object-contain rounded-3xl md:min-h-[32rem] "
-                alt={member.Name}
-                src={member.image || "/omys.png"}
-                width={700}
-                height={500}
-              />
-              <Link
-                href={`/${member.Slug}`}
-                className="text-2xl h-14 text-white font-semibold"
-              >
-                {member.Name}
-              </Link>
-              <p className="text-lg md:text-xl text-wrap md:text-nowrap text-golden font-semibold">
-                {member.area}
-              </p>
-              <div className=" bg-white rounded-full p-2   flex items-center justify-center">
-                <Image src={icon} width={35} height={20} alt="icon" />
-                <Link
-                  href={member.WhatsaapNumber}
-                  className=" text-xl font-bold text-primary"
-                >
-                  {member.contactNumber}
-                </Link>
-              </div>
-            </li>
+            <FundingMemberCard key={index} member={member} />
           ))}
         </ul>
       </div>
