@@ -38,7 +38,7 @@ const Members: React.FC = () => {
 
   return (
     <main>
-      <div className=" bg-primary/95 fixed w-full md:flex justify-between items-center  drop-shadow-2xl">
+      <div className=" bg-primary/95 fixed right-0 left-0 top-0 w-full flex flex-col md:flex-row justify-between items-center  drop-shadow-2xl">
         <Image
           src={OMYSLogo}
           width={120}
@@ -53,7 +53,7 @@ const Members: React.FC = () => {
             placeholder="Search by name"
             value={nameSearch}
             onChange={handleNameSearch}
-            className="p-4 text-xl focus:none  rounded-3xl w-full"
+            className=" p-2 md:p-4 text-xl focus:none  rounded-3xl w-full"
           />
         </div>
 
@@ -64,7 +64,7 @@ const Members: React.FC = () => {
           <select
             value={townSearch}
             onChange={handleTownSearch}
-            className="p-4 mr-3 focus:none text-xl rounded-3xl w-full"
+            className="p-2 md:p-4 mr-3 focus:none text-xl rounded-3xl w-full"
           >
             <option value="" className="text-gray-900">
               Select Town
@@ -79,14 +79,14 @@ const Members: React.FC = () => {
       </div>
       <div>
         <Banner />
-        <ul className=" grid gap-8 mx-2 md:mx-8 md:grid-cols-3 py-4   ">
+        <ul className=" grid gap-4 md:grid-cols-3">
           {filteredMembers.map((member, index) => (
             <li
               key={index}
-              className="h-fit flex flex-col justify-center gap-2 "
+              className="h-fit flex flex-col justify-center gap-2 px-2  "
             >
               <Image
-                className="w-full h-full object-contain rounded-3xl min-h-[30rem] "
+                className="w-full h-full object-contain rounded-3xl md:min-h-[32rem] "
                 alt={member.Name}
                 src={member.image || "/omys.png"}
                 width={700}
@@ -98,10 +98,10 @@ const Members: React.FC = () => {
               >
                 {member.Name}
               </Link>
-              <p className="text-lg md:text-xl pb-2 text-nowrap text-golden font-semibold">
+              <p className="text-lg md:text-xl text-wrap md:text-nowrap text-golden font-semibold">
                 {member.area}
               </p>
-              <div className=" bg-white rounded-full p-3   flex items-center justify-center">
+              <div className=" bg-white rounded-full p-2   flex items-center justify-center">
                 <Image src={icon} width={35} height={20} alt="icon" />
                 <Link
                   href={member.WhatsaapNumber}
