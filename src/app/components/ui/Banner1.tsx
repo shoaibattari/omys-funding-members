@@ -6,7 +6,7 @@ import banner2 from "../../../../public/banner2.jpg";
 function Banner() {
   return (
     <main className="w-full pt-[19rem] md:pt-44">
-      <div className="md:flex justify-center items-center my-2">
+      <div className="md:flex justify-center gap-4 items-center my-2">
         <div>
           <video
             width="1200"
@@ -15,7 +15,7 @@ function Banner() {
             muted
             loop
             controls
-            className="w-full h-auto py-2"
+            className="w-full h-auto mx-2 py-2"
           >
             <source src="omysVideo.mp4" type="video/mp4" />
             <track
@@ -28,6 +28,7 @@ function Banner() {
           </video>
         </div>
         <div>
+          <Image src={banner1} width={500} height={300} alt="banner1 " />
           <Image src={banner1} width={500} height={300} alt="banner1 " />
         </div>
       </div>
