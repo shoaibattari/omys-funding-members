@@ -11,8 +11,8 @@ function Banner2() {
         TEAM OMYS 2024-25
       </h2>
       <div className="flex flex-wrap justify-around py-4 gap-2">
-        {PanelData.map((Panel) => (
-          <div className="flex  flex-col justify-center items-center w-96 bg-golden/20 rounded-2xl  py-4">
+        {PanelData.map((Panel, index) => (
+          <div key={index} className="flex  flex-col justify-center items-center w-96 bg-golden/20 rounded-2xl  py-4">
             <Image
               src={Panel.Image}
               width={200}

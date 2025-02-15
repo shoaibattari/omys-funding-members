@@ -27,12 +27,6 @@ const Page: React.FC<Props> = ({ params }) => {
       {memberData ? (
         <div>
           <li key={memberData.Slug} className="p-1 m-2 md:p-6 md:h-[400px]">
-            <iframe
-              src={memberData.PostLink}
-              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; "
-              width={300}
-              height={230}
-            ></iframe>
             <p className="text-sm text-1xl text-gray-100 font-semibold">
               {memberData.Name}
             </p>
