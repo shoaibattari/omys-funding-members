@@ -15,7 +15,7 @@ const FundingMemberCard: React.FC<MemberProps> = ({ member }) => {
       className="flex flex-col bg-primary/40 rounded-3xl pb-4 justify-center items-center gap-2 "
     >
       <Image
-        className="w-full h-full object-cover rounded-3xl "
+        className="w-full h-full object-contain rounded-3xl "
         alt={member.Name}
         src={member.image || "/omys.png"}
         width={700}
