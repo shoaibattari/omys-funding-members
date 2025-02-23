@@ -22,10 +22,10 @@ const FundingMemberCard: React.FC<MemberProps> = ({ member }) => {
         height={700}
       />
 
-      <p className="text-xl flex items-center lg:text-2xl h-14 text-center text-white font-semibold">
+      <p className="text-xl flex items-center lg:text-2xl h-20 text-center text-white font-semibold">
         {member.Name}
       </p>
-      <p className="text-lg md:text-xl text-center text-golden font-semibold">
+      <p className="text-lg md:text-xl text-center flex items-center h-20 text-golden font-semibold">
         {member.area}
       </p>
       <div
