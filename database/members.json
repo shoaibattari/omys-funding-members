@@ -11,11 +11,62 @@
     },
     {
         "Sno": "2",
-        "Slug": "",
-        "Name": "Update Soon",
-        "WhatsaapNumber": "https://wa.me/+92",
-        "contactNumber": "",
+        "Slug": "MR.-JAWAID-TAYYAB-BARAI",
+        "image": "/MR.-JAWAID-TAYYAB-BARAI.jpg",
+        "Name": "MR. JAWAID TAYYAB BARAI",
+        "WhatsaapNumber": "https://wa.me/+923212041010",
+        "contactNumber": "0321-2041010",
         "area": "Chairman - Gulistan-e-Jauhar Block 1 & 2",
+        "Town": "Gulistan-e-Jauhar"
+    },
+    {
+        "Sno": "25",
+        "Slug": "MR.-ABDUL-WAHAB-YOUNUS-KATH",
+        "image": "/MR.-ABDUL-WAHAB-YOUNUS-KATH.jpg",
+        "Name": "MR. ABDUL WAHAB YOUNUS KATH",
+        "WhatsaapNumber": "https://wa.me/+923002180158",
+        "contactNumber": "0300-2180158",
+        "area": "Chairman - Gulistan-e-Jauhar Block 3 & 4",
+        "Town": "Gulistan-e-Jauhar"
+    },
+    {
+        "Sno": "24",
+        "Slug": "MR.-BILAL-HANIF-MARKATIYA",
+        "image": "/MR.-BILAL-HANIF-MARKATIYA.jpg",
+        "Name": "MR. BILAL HANIF MARKATIYA",
+        "WhatsaapNumber": "https://wa.me/+923212109249",
+        "contactNumber": "0321-2109249",
+        "area": "Chairman - Gulistan-e-Jauhar Block 5, 6, 7, 8",
+        "Town": "Gulistan-e-Jauhar"
+    },
+    {
+        "Sno": "23",
+        "Slug": "MR.-RAFAY-ABDUL-RASHEED-KATH",
+        "image": "/MR.-RAFAY-ABDUL-RASHEED-KATH.jpg",
+        "Name": "MR. RAFAY ABDUL RASHEED KATH",
+        "WhatsaapNumber": "https://wa.me/+923238081794",
+        "contactNumber": "0323-8081794",
+        "area": "Chairman - Gulistan-e-Jauhar Block 9, 10, 11, 12, 13",
+        "Town": "Gulistan-e-Jauhar"
+    },
+    {
+        "Sno": "22",
+        "Slug": "MR.-MUHAMMAD-YOUSUF-ABDUL-WAHID-MARKATIYA",
+        "image": "/MR.-MUHAMMAD-YOUSUF-ABDUL-WAHID-MARKATIYA.jpg",
+        "Name": "MR. MUHAMMAD YOUSUF ABDUL WAHID MARKATIYA",
+        "WhatsaapNumber": "https://wa.me/+3112060723",
+        "contactNumber": "0311-2060723",
+        "area": "Chairman - Gulistan-e-Jauhar Block 14 & 15",
+        "Town": "Gulistan-e-Jauhar"
+    },
+    {
+        "Sno": "21",
+        "Slug": "MR.-MUHAMMAD-IQBAL-YOUSUF-GABA",
+        "image": "/MR.-MUHAMMAD-IQBAL-YOUSUF-GABA.jpg",
+        "Name": "MR. MUHAMMAD IQBAL YOUSUF GABA",
+        "WhatsaapNumber": "https://wa.me/+923002343563",
+        "contactNumber": "0300-2343563",
+        "area": "Chairman - Gulistan-e-Jauhar Block 16, 17, 18, 19 & 20",
         "Town": "Gulistan-e-Jauhar"
     },
     {
@@ -96,7 +147,7 @@
         "WhatsaapNumber": "https://wa.me/+923002980173",
         "contactNumber": "0300-2980173",
         "area": "Chairman - Bahadurabad / Aalamgir Road / Tariq Road",
-        "Town": "BAHADURABAD"
+        "Town": "Bahadurabad"
     },
     {
         "Sno": "10",
@@ -170,10 +221,11 @@
     },
     {
         "Sno": "17",
-        "Slug": "",
-        "Name": "Update Soon",
-        "WhatsaapNumber": "https://wa.me/+92",
-        "contactNumber": "",
+        "Slug": "MR.-SADIQ-USMAN-KARAR",
+        "image": "/MR.-SADIQ-USMAN-KARAR.jpg",
+        "Name": "MR. SADIQ USMAN KARAR",
+        "WhatsaapNumber": "https://wa.me/+923119883947",
+        "contactNumber": "0311-9883947",
         "area": "Chairman - Matli",
         "Town": "Matli"
     },
@@ -199,65 +251,12 @@
     },
     {
         "Sno": "20",
-        "Slug": "",
-        "Name": "Update Soon",
-        "WhatsaapNumber": "https://wa.me/+92",
-        "contactNumber": "",
+        "Slug": "MR.-AAKIF-HANIF-SURIYA",
+        "image": "/MR.-AAKIF-HANIF-SURIYA.jpg",
+        "Name": "MR. AAKIF HANIF SURIYA",
+        "WhatsaapNumber": "https://wa.me/+923152480805",
+        "contactNumber": "0315-2480805",
         "area": "Chairman - Memon Nagar / Scheme 33 ",
         "Town": "Gulzar-e-Hijri "
-    },
-    {
-        "Sno": "21",
-        "Slug": "",
-        "Name": "Update Soon",
-        "WhatsaapNumber": "https://wa.me/+92",
-        "contactNumber": "",
-        "area": "Chairman - Gulistan-e-Jauhar Block 16, 17, 18, 19 & 20",
-        "Town": "Gulistan-e-Jauhar"
-    },
-    {
-        "Sno": "22",
-        "Slug": "",
-        "Name": "Update Soon",
-        "WhatsaapNumber": "https://wa.me/+92",
-        "contactNumber": "",
-        "area": "Chairman - Gulistan-e-Jauhar Block 14 & 15",
-        "Town": "Gulistan-e-Jauhar"
-    },
-    {
-        "Sno": "23",
-        "Slug": "",
-        "Name": "Update Soon",
-        "WhatsaapNumber": "https://wa.me/+92",
-        "contactNumber": "",
-        "area": "Chairman - Gulistan-e-Jauhar Block 9, 10, 11, 12, 13",
-        "Town": "Gulistan-e-Jauhar"
-    },
-    {
-        "Sno": "24",
-        "Slug": "",
-        "Name": "Update Soon",
-        "WhatsaapNumber": "https://wa.me/+92",
-        "contactNumber": "",
-        "area": "Chairman - Gulistan-e-Jauhar Block 5, 6, 7, 8",
-        "Town": "Gulistan-e-Jauhar"
-    },
-    {
-        "Sno": "25",
-        "Slug": "",
-        "Name": "Update Soon",
-        "WhatsaapNumber": "https://wa.me/+92",
-        "contactNumber": "",
-        "area": "Chairman - Gulistan-e-Jauhar Block 3 & 4",
-        "Town": "Gulistan-e-Jauhar"
-    },
-    {
-        "Sno": "26",
-        "Slug": "",
-        "Name": "Update Soon",
-        "WhatsaapNumber": "https://wa.me/+92",
-        "contactNumber": "",
-        "area": "Chairman - Hyderabad",
-        "Town": "Hyderabad"
     }
 ]

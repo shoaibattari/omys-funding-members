@@ -11,8 +11,8 @@ interface MemberProps {
 const FundingMemberCard: React.FC<MemberProps> = ({ member }) => {
   return (
     <Link
-      href={`/${member.Slug}`}
-      className="flex flex-col bg-primary/40 rounded-3xl pb-4 justify-center items-center gap-2 "
+      href={`/${member.Slug.toLocaleLowerCase()}`}
+      className="flex flex-col bg-primary/40 rounded-3xl  justify-center items-center "
     >
       <Image
         className="w-full h-full object-contain rounded-3xl "
@@ -22,15 +22,15 @@ const FundingMemberCard: React.FC<MemberProps> = ({ member }) => {
         height={700}
       />
 
-      <p className="text-xl flex items-center lg:text-2xl h-20 text-center text-white font-semibold">
+      <p className="text-xl flex items-center px-2 justify-center lg:text-2xl h-16  text-center text-white font-semibold w-full">
         {member.Name}
       </p>
-      <p className="text-lg md:text-xl text-center flex items-center h-20 text-golden font-semibold">
+      <p className="text-lg md:text-xl px-2 text-center flex items-center justify-center h-16 w-full  text-golden font-semibold">
         {member.area}
       </p>
       <div
         className="flex justify-center items-center gap-2 
-      bg-white rounded-3xl p-2 px-12 min-w-[12rem] hover:scale-105 duration-300"
+      bg-white rounded-3xl p-2 md:mb-2 px-12 w-full md:w-fit hover:scale-105 duration-300"
       >
         <Image src={icon} width={35} height={20} alt="icon" />
         <Link

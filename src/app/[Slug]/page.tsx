@@ -18,7 +18,7 @@ export async function generateStaticParams() {
 const Page: React.FC<Props> = ({ params }) => {
   const { Slug } = params;
 
-  const memberData = membersData.find((member) => member.Slug === Slug);
+  const memberData = membersData.find((member) => member.Slug.toLocaleLowerCase() === Slug);
 
   return (
     <main className="w-full py-12">

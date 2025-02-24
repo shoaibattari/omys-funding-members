@@ -4,7 +4,7 @@ import banner1 from "../../../../public/banner2025.jpg";
 
 function Banner() {
   return (
-    <main className="w-full pt-[19rem] md:pt-44">
+    <main className="w-full pt-[8rem] md:pt-32">
       <div className="md:flex justify-center gap-4 items-center my-2">
         <div>
           <video
