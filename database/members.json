@@ -258,5 +258,25 @@
         "contactNumber": "0315-2480805",
         "area": "Chairman - Memon Nagar / Scheme 33 ",
         "Town": "Gulzar-e-Hijri "
+    },
+    {
+        "Sno": "28",
+        "Slug": "MR.-SHAUKAT-ABDUL-MAJEED-TOBERIYA",
+        "image": "/MR.-SHAUKAT-ABDUL-MAJEED-TOBERIYA.jpg",
+        "Name": "MR. SHAUKAT ABDUL MAJEED TOBERIYA",
+        "WhatsaapNumber": "https://wa.me/+923332606550",
+        "contactNumber": "0333-2606550",
+        "area": "Chairman - Hyderabad Zone" ,
+        "Town": "Hyderabad"
+    },
+    {
+        "Sno": "29",
+        "Slug": "MR.-MUHAMMAD-RAFIQ-KAREEMI-JAKHURA",
+        "image": "/MR.-MUHAMMAD-RAFIQ-KAREEMI-JAKHURA.jpg",
+        "Name": "MR. MUHAMMAD RAFIQ KAREEMI JAKHURA",
+        "WhatsaapNumber": "https://wa.me/+923163083070",
+        "contactNumber": "0316-3083070",
+        "area": "Chairman - Hyderabad" ,
+        "Town": "Hyderabad"
     }
 ]
