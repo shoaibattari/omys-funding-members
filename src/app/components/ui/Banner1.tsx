@@ -4,7 +4,7 @@ import banner1 from "../../../../public/banner2025.jpg";
 
 function Banner() {
   return (
-    <main className="w-full pt-[8rem] md:pt-32">
+    <main className="w-full pt-12">
       <div className="md:flex justify-center gap-4 items-center my-2">
         <div>
           <video
@@ -16,7 +16,7 @@ function Banner() {
             controls
             className="w-full h-auto "
           >
-            <source src="omysVideo.mp4" type="video/mp4" />
+            <source src="/omysVideo.mp4" type="video/mp4" />
             <track
               src="/path/to/captions.vtt"
               kind="subtitles"

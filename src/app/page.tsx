@@ -1,11 +1,15 @@
-import Members from "@/app/components/Members";
-import TeamOMYS from "./components/ui/TeamOMYS";
+import Banner from "./components/ui/Banner1";
+import OperationalNumber from "./components/ui/OperationalNumber";
+import Towns from "./components/ui/Towns";
 
 export default function Home() {
   return (
     <main>
-      <Members />
-      <TeamOMYS />
+      <div className="md:hidden">
+      <OperationalNumber/>
+      </div>
+      <Banner />
+      <Towns />
     </main>
   );
 }

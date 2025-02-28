@@ -1,8 +1,7 @@
 import React from "react";
 import membersData from "@/app/../../database/members.json";
 import Member from "@/app/../../database/type";
-import TeamOMYS from "../components/ui/TeamOMYS";
-import FundingMemberCard from "../components/MemberCard/FundingMemberCard";
+import FundingMemberCard from "@/app/components/MemberCard/FundingMemberCard";
 
 interface Props {
   params: { Slug: string };
@@ -27,9 +26,7 @@ const Page: React.FC<Props> = ({ params }) => {
           {memberData ? <FundingMemberCard member={memberData} /> : null}
         </div>
       </div>
-      <div>
-        <TeamOMYS />
-      </div>
+      
     </main>
   );
 };

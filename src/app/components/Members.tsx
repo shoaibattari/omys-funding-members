@@ -2,9 +2,6 @@
 import React, { useState } from "react";
 import membersData from "@/app/../../database/members.json";
 import Member from "@/app/../../database/type";
-import OMYSLogo from "@/app/../../public/OMYS-Logo.png";
-import Image from "next/image";
-import Banner from "./ui/Banner1";
 import FundingMemberCard from "./MemberCard/FundingMemberCard";
 
 const Members: React.FC = () => {
@@ -36,14 +33,7 @@ const Members: React.FC = () => {
 
   return (
     <main>
-      <div className=" bg-primary/95 fixed right-0 left-0 top-0 w-full flex  md:flex-row justify-between items-center  drop-shadow-2xl">
-        <Image
-          src={OMYSLogo}
-          width={120}
-          height={120}
-          alt="icon"
-          className=" mx-auto w-24 h-32"
-        />
+      <div className="  pt-14 md:flex-row justify-between items-center ">
         <div className="flex flex-col md:flex-row w-full">
           <div className=" w-full mx-auto p-2">
             <label className=" hidden  md:text-2xl text-golden">
@@ -80,7 +70,6 @@ const Members: React.FC = () => {
         </div>
       </div>
       <div>
-        <Banner />
         <ul className=" grid justify-center items-start gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {filteredMembers.map((member, index) => (
             <FundingMemberCard key={index} member={member} />

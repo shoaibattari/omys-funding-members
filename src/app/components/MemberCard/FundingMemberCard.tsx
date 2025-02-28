@@ -11,7 +11,7 @@ interface MemberProps {
 const FundingMemberCard: React.FC<MemberProps> = ({ member }) => {
   return (
     <Link
-      href={`/${member.Slug.toLocaleLowerCase()}`}
+      href={`/members/${member.Slug.toLocaleLowerCase()}`}
       className="flex flex-col bg-primary/40 rounded-3xl  justify-center items-center "
     >
       <Image
