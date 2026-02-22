@@ -14,10 +14,10 @@ export default function Footer() {
       <div className="md:px-[48px] py-[16px] text-center bg-secondary text-gray-100">
         Disclaimer
         <p className="text-sm p-3">
-          This app is not  official Okhai Memon Youth Service application. It is an
-          independent service created to assist users in accessing OMYS 
-          data for personal purposes. For official information and services,
-          please refer to OMYS official channels.
+          This app is not official Okhai Memon Youth Service application. It is
+          an independent service created to assist users in accessing OMYS data
+          for personal purposes. For official information and services, please
+          refer to OMYS official channels.
           <br />
         </p>
         <div className="md:flex justify-between ">
@@ -25,7 +25,7 @@ export default function Footer() {
           <div className=" md:flex ">
             <p>App Create And Design By - </p>
             <Link
-              href="https://shoaibmemon.vercel.app/"
+              href="https://wa.me/+923313416850"
               target="_blank"
               className="hover:text-gray-300 font-bold"
             >

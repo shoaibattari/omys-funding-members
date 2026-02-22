@@ -32,8 +32,8 @@ const Page: React.FC<Props> = ({ params }) => {
   return (
     <main className="w-full pt-12">
       <div className="text-center">
-        <h2 className="text-2xl lg:text-5xl font-bold text-golden uppercase">
-          Chairmans {formattedTown} Town
+        <h2 className="text-2xl lg:text-5xl font-bold text-golden italic uppercase">
+          Team {formattedTown} Town
         </h2>
       </div>
 

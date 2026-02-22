@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main>
       <div className="md:hidden">
-      <OperationalNumber/>
+        <OperationalNumber />
       </div>
       <Banner />
       <Towns />

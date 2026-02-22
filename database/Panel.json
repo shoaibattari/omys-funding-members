@@ -4,31 +4,34 @@
         "Design": "President",
         "WhatsaapNumber": "https://wa.me/+923212548084",
         "contactNumber": "03212548084",
-        "Image":"/saddar.jpg"
-    },{
-        "Name": "Irfan Nisar Gaba",
+        "Image": "/saddar.jpg"
+    },
+    {
+        "Name": "Umair Abdul Razzak Jakhura",
         "Design": "Vice President",
-        "WhatsaapNumber": "https://wa.me/+923333091989",
-        "contactNumber": "03333091989",
-        "Image":"/Naibsaddar.jpg"
-    },{
+        "WhatsaapNumber": "https://wa.me/+923218711643",
+        "contactNumber": "03218711643",
+        "Image": "/Naibsaddar.jpg"
+    },
+    {
         "Name": "Dr. Abdul Sattar Gatta",
         "Design": "General Seceratory",
         "WhatsaapNumber": "https://wa.me/+923218080486",
         "contactNumber": "03218080486",
-        "Image":"/GeneralSeceratory.jpg"
-    },{
-        "Name": "Imran Abdul Sattar Ganatra",
+        "Image": "/GeneralSeceratory.jpg"
+    },
+    {
+        "Name": "Rizwan Hashim Kath",
         "Design": "Joint Seceratory",
-        "WhatsaapNumber": "https://wa.me/+923332308996",
-        "contactNumber": "03332308996",
-        "Image":"/JointSeceratory.jpg"
-    },{
-        "Name": "Zaid Abid Hussian Essani",
+        "WhatsaapNumber": "https://wa.me/+923002346656",
+        "contactNumber": "03002346656",
+        "Image": "/JointSeceratory.jpg"
+    },
+    {
+        "Name": "Umair Abdul Qadir Markatiya",
         "Design": "Treasurer",
-        "WhatsaapNumber": "https://wa.me/+923333328559",
-        "contactNumber": "03333328559",
-        "Image":"/Khazin.jpg"
+        "WhatsaapNumber": "https://wa.me/+923318683856",
+        "contactNumber": "03318683856",
+        "Image": "/Khazin.jpg"
     }
-
 ]
